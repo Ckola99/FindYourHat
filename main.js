@@ -32,7 +32,7 @@ class Field {
 		// Randomly place holes
 		for (let i = 0; i < height; i++) {
 			for (let j = 0; j < width; j++) {
-				if (Math.random() < percentage && field[i][j] !== hat) {
+				if (Math.random() < percentage && field[i][j] !== hat && field[i][j] !== pathCharacter) {
 					field[i][j] = hole;
 				}
 			}
