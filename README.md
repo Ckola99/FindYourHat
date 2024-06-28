@@ -1,4 +1,4 @@
-# Field Class Game
+# FIND YOUR HAT Class Game
 
 ## Project Overview
 
